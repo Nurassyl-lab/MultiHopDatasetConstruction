@@ -4,6 +4,13 @@
 
 # Environment Workspaces
 trivia_qa_gen/trivia_qa_gen_env/
+*__pycache__
 
 # Private files/keys
 reproducibility/service_account.json
+
+# Temp. ignored datasets
+path_quality_scorer/data/batch_input/*
+path_quality_scorer/data/batch_output/*
+path_quality_scorer/data/multihop/*
+
